@@ -1,0 +1,68 @@
+﻿context,file,source,translation,flag
+AboutDialog,../../src/yuzu/aboutdialog.ui,About Eden,关于 Eden,
+AboutDialog,../../src/yuzu/aboutdialog.ui,"<html><head/><body><p><span style="" font-size:28pt;"">Eden</span></p></body></html>","<html><head/><body><p><span style="" font-size:28pt;"">Eden</span></p></body></html>",
+AboutDialog,../../src/yuzu/aboutdialog.ui,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0//EN"" ""http://www.w3.org/TR/REC-html40/strict.dtd"">
+<html><head><meta name=""qrichtext"" content=""1"" /><meta charset=""utf-8"" /><style type=""text/css"">
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: ""\2610""; }
+li.checked::marker { content: ""\2612""; }
+</style></head><body style="" font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;"">
+<p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><span style="" font-family:'MS Shell Dlg 2'; font-size:12pt;"">Eden is an experimental open-source emulator for the Nintendo Switch licensed under GPLv3.0+ which is based on the yuzu emulator which ended development back in March 2024. <br /><br />This software should not be used to play games you have not legally obtained.</span></p></body></html>","<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.0//EN"" ""http://www.w3.org/TR/REC-html40/strict.dtd"">
+<html><head><meta name=""qrichtext"" content=""1"" /><meta charset=""utf-8"" /><style type=""text/css"">
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: ""\2610""; }
+li.checked::marker { content: ""\2612""; }
+</style></head><body style="" font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;"">
+<p style="" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;""><span style="" font-family:'MS Shell Dlg 2'; font-size:12pt;"">Eden 是一个实验性的开源任天堂 Switch 模拟器，以 GPLv3.0+ 许可证授权。本项目基于 yuzu 模拟器开发（后者已于 2024 年 3 月终止）。<br /><br />请勿使用此软件运行非法获得的游戏。</span></p></body></html>",
+AboutDialog,../../src/yuzu/aboutdialog.ui,"<html><head/><body><p><a href=""https://eden-emulator.github.io/""><span style="" text-decoration: underline; color:#039be5;"">Website</span></a> | <a href=""https://git.eden-emu.dev""><span style="" text-decoration: underline; color:#039be5;"">Source Code</span></a> | <a href=""https://git.eden-emu.dev/eden-emu/eden/activity/contributors""><span style="" text-decoration: underline; color:#039be5;"">Contributors</span></a> | <a href=""https://discord.gg/HstXbPch7X""><span style="" text-decoration: underline; color:#039be5;"">Discord</span></a> | <a href=""https://stt.gg/qKgFEAbH""><span style="" text-decoration: underline; color:#039be5;"">Stoat</span></a> | <a href=""https://nitter.poast.org/edenemuofficial""><span style="" text-decoration: underline; color:#039be5;"">Twitter</span></a> | <a href=""https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt""><span style="" text-decoration: underline; color:#039be5;"">License</span></a></p></body></html>","<html><head/><body><p><a href=""https://eden-emulator.github.io/""><span style="" text-decoration: underline; color:#039be5;"">主页</span></a> | <a href=""https://git.eden-emu.dev""><span style="" text-decoration: underline; color:#039be5;"">源码</span></a> | <a href=""https://git.eden-emu.dev/eden-emu/eden/activity/contributors""><span style="" text-decoration: underline; color:#039be5;"">贡献者</span></a> | <a href=""https://discord.gg/HstXbPch7X""><span style="" text-decoration: underline; color:#039be5;"">Discord</span></a> | <a href=""https://stt.gg/qKgFEAbH""><span style="" text-decoration: underline; color:#039be5;"">Stoat</span></a> | <a href=""https://nitter.poast.org/edenemuofficial""><span style="" text-decoration: underline; color:#039be5;"">Twitter</span></a> | <a href=""https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt""><span style="" text-decoration: underline; color:#039be5;"">许可证</span></a></p></body></html>",
+AboutDialog,../../src/yuzu/aboutdialog.ui,"<html><head/><body><p><span style="" font-size:7pt;"">&quot;Nintendo Switch&quot; is a trademark of Nintendo. Eden is not affiliated with Nintendo in any way.</span></p></body></html>","<html><head/><body><p><span style="" font-size:7pt;"">&quot;Nintendo Switch&quot; 是任天堂的注册商标。Eden 与任天堂没有任何关系。</span></p></body></html>",
+ConfigurationShared,../../src/qt_common/config/shared_translation.cpp,FSR Sharpness:,FSR 锐化度：,
+ConfigurationShared,../../src/qt_common/config/shared_translation.cpp,Determines how sharpened the image will look using FSR's or SGSR's dynamic contrast.,确定使用 FSR 或 SGSR 的动态对比度时图像看起来有多锐利。,
+ConfigurationShared,../../src/qt_common/config/shared_translation.cpp,GPU Readback Before NCE Invalidation,,unfinished
+ConfigurationShared,../../src/qt_common/config/shared_translation.cpp,"Flushes GPU buffer data back to guest memory before NCE invalidates the whole guest page, preserving it while the CPU store proceeds.",,unfinished
+ConfigurationShared,../../src/qt_common/config/shared_translation.cpp,Patch Runtime NROs for NCE,,unfinished
+ConfigurationShared,../../src/qt_common/config/shared_translation.cpp,Applies NCE code patches to runtime-loaded NRO modules.This is required for some games to run correctly.,,unfinished
+ConfigurationShared,../../src/qt_common/config/shared_translation.cpp,AMD FidelityFX Super Resolution,AMD FidelityFX 超级分辨率,
+ConfigureDebug,../../src/yuzu/configuration/configure_debug.ui,**This will be reset automatically when Eden closes.,**这会在 Eden 关闭时自动重置。,
+ConfigureDialog,../../src/yuzu/configuration/configure.ui,Eden Configuration,Eden 设置,
+ConfigureGeneral,../../src/yuzu/configuration/configure_general.cpp,Eden,Eden,
+ConfigureInputAdvanced,../../src/yuzu/configuration/configure_input_advanced.ui,Requires restarting Eden,需要重启 Eden,
+ConfigureMotionTouch,../../src/yuzu/configuration/configure_motion_touch.cpp,Eden,Eden,
+ConfigureTouchscreenAdvanced,../../src/yuzu/configuration/configure_touchscreen_advanced.ui,"Warning: The settings in this page affect the inner workings of Eden's emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.","警告: 此页面中的设置会影响 Eden 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。",
+ConfigureWeb,../../src/yuzu/configuration/configure_web.ui,Eden Web Service,Eden 网络服务,
+DepsDialog,../../src/yuzu/deps_dialog.ui,Eden Dependencies,Eden 依赖项,
+DepsDialog,../../src/yuzu/deps_dialog.ui,"<html><head/><body><p><span style="" font-size:28pt;"">Eden Dependencies</span></p></body></html>","<html><head/><body><p><span style="" font-size:28pt;"">Eden 依赖项</span></p></body></html>",
+DepsDialog,../../src/yuzu/deps_dialog.ui,<html><head/><body><p>The projects that make Eden possible</p></body></html>,<html><head/><body><p>让 Eden 成为可能的项目</p></body></html>,
+GRenderWindow,../../src/yuzu/bootmanager.cpp,Eden has not been compiled with OpenGL support.,Eden 尚未编译为支持 OpenGL。,
+Hotkeys,../../src/qt_common/config/uisettings.cpp,Exit Eden,退出 Eden,
+Hotkeys,../../src/qt_common/config/uisettings.cpp,Load/Remove Amiibo,加载/移除 Amiibo,
+MainWindow,../../src/yuzu/main.ui,yuzu,yuzu,
+MainWindow,../../src/yuzu/main.ui,Open &Eden Folders,打开 &Eden 文件夹,
+MainWindow,../../src/yuzu/main.ui,&About Eden,关于 Eden(&A),
+MainWindow,../../src/yuzu/main.ui,&Eden Dependencies,&Eden 依赖项,
+MainWindow,../../src/yuzu/main_window.cpp,Small (32x32),小 (32x32),
+MainWindow,../../src/yuzu/main_window.cpp,Standard (64x64),标准 (64x64),
+MainWindow,../../src/yuzu/main_window.cpp,Large (128x128),大 (128x128),
+MainWindow,../../src/yuzu/main_window.cpp,Full Size (256x256),最大 (256x256),
+MainWindow,../../src/yuzu/main_window.cpp,Warning: Outdated Game Format,警告: 游戏格式过时,
+MainWindow,../../src/yuzu/main_window.cpp,"You are using the deconstructed ROM directory format for this game, which is an outdated format that has been superseded by others such as NCA, NAX, XCI, or NSP. Deconstructed ROM directories lack icons, metadata, and update support.<br>For an explanation of the various Switch formats Eden supports, out our user handbook. This message will not be shown again.","您正在为此游戏使用解包 ROM 目录格式,这是一种已过时的格式,它已被 NCA、NAX、XCI 或 NSP 等其他格式取代。解包 ROM 目录缺少图标、元数据和更新支持。<br>有关 Eden 支持的各种 Switch 格式的说明请查阅我们的用户手册。此消息将不再显示。",
+MainWindow,../../src/yuzu/main_window.cpp,Installable Switch File (*.nca *.nsp *.xci);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp);;NX Cartridge Image (*.xci),可安装的 Switch 文件 (*.nca *.nsp *.xci);;任天堂内容档案 (*.nca);;任天堂提交包 (*.nsp);;NX 卡带镜像 (*.xci),
+MainWindow,../../src/yuzu/main_window.cpp,Restart Eden to apply the X11 backend.,重新启动 Eden 以应用 X11 后端。,
+MainWindow,../../src/yuzu/main_window.cpp,Are you sure you want to close Eden?,您确实要关闭 Eden 吗?,
+MainWindow,../../src/yuzu/main_window.cpp,Eden,Eden,
+MainWindow,../../src/yuzu/main_window.cpp,"The currently running application has requested Eden to not exit.
+
+Would you like to bypass this and exit anyway?","当前正在运行的应用程序已请求 Eden 不退出。
+
+您想要绕过并退出吗?",
+MainWindow,../../src/qt_common/config/shared_translation.h,FSR,FSR,
+NewUserDialog,../../src/yuzu/configuration/system/new_user_dialog.ui,Eden,Eden,
+RyujinxDialog,../../src/yuzu/ryujinx_dialog.ui,"Linking save data to Ryujinx lets both Ryujinx and Eden reference the same save files for your games.
+
+By selecting ""From Eden"", previous save data stored in Ryujinx will be deleted, and vice versa for ""From Ryujinx"".","将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Eden 都能引用相同的游戏存档文件。
+
+选择 “来自 Eden” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。",
+RyujinxDialog,../../src/yuzu/ryujinx_dialog.ui,From Eden,来自 Eden,
+UpdateDialog,../../src/yuzu/updater/update_dialog.ui,Would you like to install this update?,您要安装此更新吗?,

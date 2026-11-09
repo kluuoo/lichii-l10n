@@ -1,0 +1,357 @@
+000 | AboutDialog | About Lichii
+001 | AboutDialog | <html><head/><body><p><span style=" font-size:28pt;">Lichii</span></p></body></html>
+002 | AboutDialog | <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">\n<html><head><meta name="qrichtext" content="1" /><meta charset="utf-8" /><style type="text/css">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: "\2610"; }\nli.checked::marker { content: "\2612"; }\n</style></head><body style=" font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;">\n<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'MS Shell Dlg 2'; font-size:12pt;">Lichii is an experimental open-source emulator for the Nintendo Switch 2, based on Eglantine and Eden. <br /><br />This software should not be used to play games you have not legally obtained.</span></p></body></html>
+003 | AboutDialog | <html><body><p><a href="https://github.com/zortos293/Eglantine">Source Code</a> | <a href="https://github.com/zortos293/Eglantine/issues">Report an Issue</a> | <a href="https://github.com/zortos293/Eglantine#credits-and-license">Credits and License</a></p></body></html>
+004 | AboutDialog | <html><head/><body><p><span style=" font-size:7pt;">&quot;Nintendo Switch&quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.</span></p></body></html>
+005 | ConfigureDialog | Lichii Configuration
+006 | ConfigureDebug | **This will be reset automatically when Lichii closes.
+007 | ConfigureInputAdvanced | Requires restarting Lichii
+008 | ConfigurePerGame | Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.
+009 | ConfigurePerGame | Preview a local image as the game icon. Apply or OK saves changes.
+010 | ConfigurePerGame | Upload Icon...
+011 | ConfigurePerGame | Allow online lookup
+012 | ConfigurePerGame | If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.
+013 | ConfigureTouchscreenAdvanced | Warning: The settings in this page affect the inner workings of Lichii's emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.
+014 | ConfigureWeb | Lichii Web Service
+015 | DepsDialog | Lichii Dependencies
+016 | DepsDialog | <html><head/><body><p><span style=" font-size:28pt;">Lichii Dependencies</span></p></body></html>
+017 | DepsDialog | <html><head/><body><p>The projects that make Lichii possible</p></body></html>
+018 | MainWindow | Lichii
+019 | MainWindow | Open &Lichii Folders
+020 | MainWindow | &About Lichii
+021 | MainWindow | &Lichii Dependencies
+022 | RyujinxDialog | Linking save data to Ryujinx lets both Ryujinx and Lichii reference the same save files for your games.\n\nBy selecting "From Lichii", previous save data stored in Ryujinx will be deleted, and vice versa for "From Ryujinx".
+023 | RyujinxDialog | From Lichii
+024 | MainWindow | Restore Previous Version...
+025 | MainWindow | Restore Previous Version
+026 | MainWindow | Go back to the version this one replaced? Your settings and data are not changed.
+027 | MainWindow | Failed to restore
+028 | MainWindow | Could not restore the previous version: %1
+029 | MainWindow | Not enough memory to start the game
+030 | MainWindow | Lichii could not allocate the game's memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.
+031 | MainWindow | Conversion in Progress
+032 | MainWindow | This game cannot be started while its dump is being converted.
+033 | MainWindow | Shader Precache in Progress
+034 | MainWindow | Games cannot be started while the shader precache is being built. Wait for it to finish or cancel it.
+035 | MainWindow | Recommended Mario Kart World settings
+036 | MainWindow | Use the recommended settings for Mario Kart World?\n\nVulkan, 1x resolution, GPU Fast, asynchronous shaders, BC3, conservative VRAM, reactive flushing off, FIFO Relaxed VSync, handheld mode, ScaleForce, and FXAA.\n\nThey apply to Mario Kart World until Lichii is closed. Your saved settings are not changed.
+037 | MainWindow | Preparing game files...
+038 | MainWindow | Unable to prepare game files
+039 | MainWindow | Game preparation failed. See the log for details.
+040 | MainWindow | Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)
+041 | MainWindow | Convert to NUP
+042 | MainWindow | The target archive already exists:\n%1
+043 | MainWindow | Resume Conversion
+044 | MainWindow | Resume the interrupted conversion?
+045 | MainWindow | Converting to NUP
+046 | MainWindow | Conversion Complete
+047 | MainWindow | The NUP was created and the loose folder was removed.
+048 | MainWindow | The NUP was created. You can delete the loose folder if you no longer need it.
+049 | MainWindow | Conversion Cancelled
+050 | MainWindow | The conversion can be resumed by choosing Convert to NUP again.
+051 | MainWindow | Conversion Failed
+052 | MainWindow | Precache Shaders
+053 | MainWindow | Close the running game first.
+054 | MainWindow | This game is being converted. Try again when it is done.
+055 | MainWindow | The shaders of this game are not precached yet. Precache them now?\n\nThe game starts when they are done. The first time, the game files are read and their shaders are built on every CPU thread, with the shaders earlier play sessions saved, which takes a few minutes. Later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.\n\nYou can change this in Configure, Graphics, Advanced.
+056 | MainWindow | Precache now
+057 | MainWindow | Start without
+058 | MainWindow | Delete Shader Precache
+059 | MainWindow | Shaders are being precached. Try again when it is done.
+060 | MainWindow | Delete the shader precache files of this game? They are built again the next time the game is precached.
+061 | MainWindow | The files could not be deleted: %1
+062 | MainWindow | Extract NUP
+063 | MainWindow | The target directory already exists:\n%1
+064 | MainWindow | Extracting NUP
+065 | MainWindow | Extraction Complete
+066 | MainWindow | The NUP was extracted. You can delete the NUP file if you no longer need it.
+067 | MainWindow | Extraction Failed
+068 | MainWindow | Editing NUP Metadata
+069 | MainWindow | Edit Complete
+070 | MainWindow | The NUP metadata was updated.
+071 | MainWindow | Edit Failed
+072 | MainWindow | Could not check for updates: GitHub rate limit reached. Lichii will try again at the next start.
+073 | MainWindow | Could not check for updates: GitHub answered with HTTP %1.
+074 | MainWindow | NO FG
+075 | MainWindow | Frame generation is off.
+076 | MainWindow | FG %1 %2X
+077 | MainWindow | FG %1 AUTO
+078 | MainWindow |  It adds up to %1 frames per game frame to reach %2 FPS.
+079 | MainWindow | Frame generation is on.%1 Whether it runs shows here once a game starts.
+080 | MainWindow | Frame generation needs the Vulkan renderer.
+081 | MainWindow | This build was compiled without frame generation.
+082 | MainWindow | This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.
+083 | MainWindow | This GPU can't write to the window's swapchain format from a shader, so generated frames can't be presented.
+084 | MainWindow | LSFG needs Lossless.dll from Lossless Scaling in the "lossless" folder of the user directory. It is missing or could not be loaded.
+085 | MainWindow | FG UNAVAILABLE
+086 | MainWindow | Frame generation is on but not running. %1
+087 | MainWindow | Frame generation is running.%1
+088 | MainWindow |  It also pauses while the game already reaches %1 FPS.
+089 | MainWindow | %1 (IDLE)
+090 | MainWindow | Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1
+091 | MainWindow | Restart Lichii to apply the X11 backend.
+092 | MainWindow | Are you sure you want to close Lichii?
+093 | MainWindow | The currently running application has requested Lichii to not exit.\n\nWould you like to bypass this and exit anyway?
+094 | NupEditDialog | English (UK)
+095 | NupEditDialog | Japanese
+096 | NupEditDialog | French
+097 | NupEditDialog | German
+098 | NupEditDialog | Spanish (Latin America)
+099 | NupEditDialog | Spanish
+100 | NupEditDialog | Italian
+101 | NupEditDialog | Dutch
+102 | NupEditDialog | French (Canada)
+103 | NupEditDialog | Portuguese
+104 | NupEditDialog | Russian
+105 | NupEditDialog | Korean
+106 | NupEditDialog | Chinese (Traditional)
+107 | NupEditDialog | Chinese (Simplified)
+108 | NupEditDialog | Portuguese (Brazil)
+109 | IconDropZone | Drop an image here or click to browse
+110 | IconDropZone | Drop to replace
+111 | IconDropZone | Release to use this image
+112 | IconDropZone | Drop an icon here\nor click to browse
+113 | NupMetadataDialog | Choose Icon...
+114 | NupMetadataDialog | Use Detected
+115 | NupMetadataDialog | Name shown in the game list
+116 | NupMetadataDialog | Publisher shown in the game list
+117 | NupMetadataDialog | Auto-detect (nothing found in the dump)
+118 | NupMetadataDialog | Auto-detect: %1 (from %2)
+119 | NupMetadataDialog | Set manually:
+120 | NupMetadataDialog | e.g. 1.2.0
+121 | NupMetadataDialog | Icon
+122 | NupMetadataDialog | Publisher
+123 | NupMetadataDialog | <b>Source</b><br>%1<br><b>Target</b><br>%2
+124 | NupMetadataDialog | Approximate space needed: %1 MB. Free on the target volume: %2 MB.
+125 | NupMetadataDialog | Free space is less than the estimate.
+126 | NupMetadataDialog | Low storage: delete the original files as they are packed (cannot be undone)
+127 | NupMetadataDialog | Convert
+128 | NupMetadataDialog | Choose Icon
+129 | NupMetadataDialog | Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)
+130 | NupMetadataDialog | That file could not be read as an image.
+131 | NupMetadataDialog | Custom icon, stored as %1x%1 JPEG.
+132 | NupMetadataDialog | Icon found in the dump.
+133 | NupMetadataDialog | No icon found in the dump. Add one, or the NUP will have none.
+134 | NupProgressDialog | Preparing...
+135 | NupProgressDialog | %1%
+136 | NupProgressDialog | %1 / %2 MB  -  %3 / %4 files
+137 | NupProgressDialog | \n%1 MB/s  -  about %2:%3 left
+138 | NupProgressDialog | Cancelling...
+139 | NupEditDialog | Edit NUP Metadata
+140 | NupEditDialog | Find Icon Online...
+141 | NupEditDialog | Remove Icon
+142 | NupEditDialog | Searching...
+143 | NupEditDialog | Same as Name
+144 | NupEditDialog | Localized names (%1 set)
+145 | NupEditDialog | Localized names
+146 | NupEditDialog | <b>File</b><br>%1
+147 | NupEditDialog | Empty fields remove that metadata. The change is written in place; game data is untouched.
+148 | NupEditDialog | The icon that was found could not be read.
+149 | NupEditDialog | Icon will be removed.
+150 | NupEditDialog | Current icon in the NUP.
+151 | NupEditDialog | No icon in the NUP. Add one, or it will have none.
+152 | IconSearch | Find Icon
+153 | IconSearch | Please enter a game name first so the icon can be found.
+154 | IconSearch | Choose an Icon
+155 | IconSearch | SteamGridDB has several icons for this game. Pick one:
+156 | IconSearch | No matching icon was found on switchiconshowdown.com. A SteamGridDB API key enables a fallback search.
+157 | IconSearch | SteamGridDB rejected the saved API key.
+158 | IconSearch | Create a free key on the <a href="%1">SteamGridDB API preferences</a> page.
+159 | IconSearch | SteamGridDB API Key
+160 | IconSearch | API key
+161 | IconSearch | No matching icon was found on switchiconshowdown.com or SteamGridDB. Try a different game name or choose an icon file.
+162 | IconSearch | Searching for an icon took longer than %1 seconds and was stopped. Check your connection and try again.
+163 | IconSearch | Could not reach the icon sources (%1). Check your connection and try again.
+164 | IconSearch | Searching for an icon failed unexpectedly: %1
+165 | Dialog | Submit compatibility report
+166 | Dialog | Share your experience with the latest completed session. Nothing is sent until you choose Search or Submit. Logs are not uploaded. No account is required.
+167 | Dialog | Game title to search
+168 | Dialog | Search catalog
+169 | Dialog | Search sends only the text above to lichii.zortos.me. The service sees your IP address.
+170 | Dialog | Previous
+171 | Dialog | Next
+172 | Dialog | Confirm game
+173 | Dialog | No catalog game confirmed.
+174 | Dialog | Experience
+175 | Dialog | Public nickname
+176 | Dialog | X handle (optional)
+177 | Dialog | Choose your assessment
+178 | Dialog | Compatibility
+179 | Dialog | Summary
+180 | Dialog | How far did you play?
+181 | Dialog | What worked or failed?
+182 | Dialog | Steps to reproduce (optional)
+183 | Dialog | System and settings
+184 | Dialog | Prefilled values describe launch settings, not measured performance. Review changes made during play. Unknown means not collected. Do not paste logs, paths, keys or private details.
+185 | Dialog | Lichii build
+186 | Dialog | Game version
+187 | Dialog | GPU driver / OpenGL version
+188 | Dialog | Operating system
+189 | Dialog | RAM (optional)
+190 | Dialog | Graphics API
+191 | Dialog | Launch settings
+192 | Dialog | Updates (optional)
+193 | Dialog | Mods (optional)
+194 | Dialog | Public preview
+195 | Dialog | All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.
+196 | Dialog | I understand my name, optional X handle, report text, hardware and settings will be public.
+197 | Dialog | My report contains no game files, keys, firmware, saves or private account details.
+198 | Dialog | Clear draft
+199 | Dialog | Submit report
+200 | Dialog | Open public report
+201 | Dialog | Draft cleared. Nothing was sent by clearing it.
+202 | Dialog | Search for and confirm the catalog game first.
+203 | Dialog | Check %1: required fields must be filled, within their length limit, and contain no control characters.
+204 | Dialog | An X handle must contain 1–15 letters, digits or underscores, with an optional @.
+205 | Dialog | Choose your own compatibility assessment.
+206 | Dialog | The report is too large.
+207 | Dialog | Check the search text.
+208 | Dialog | Searching catalog… Cancel closes the dialog and stops this request.
+209 | Dialog | Confirmed: %1 (catalog ID %2)
+210 | Dialog | Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.
+211 | Dialog | Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.
+212 | Dialog | The server rejected the report. Review the fields and length limits before submitting again.
+213 | Dialog | The server rejected these fields: %1. Review them before submitting again.
+214 | Dialog | The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.
+215 | Dialog | The server rejected the request (HTTP %1). No automatic retry was made.
+216 | Dialog | No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.
+217 | Dialog | Catalog search failed. Check your connection and retry explicitly.
+218 | Dialog | Report submitted. It is public. Thank you.
+219 | Dialog | The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.
+220 | Dialog | Page %1 of %2. Select the exact game and press Confirm game.
+221 | Dialog | The catalog returned an invalid response. No game was confirmed.
+222 | ShaderWarmDialog | Reading game files
+223 | ShaderWarmDialog | Extracting shaders
+224 | ShaderWarmDialog | Converting shaders
+225 | ShaderWarmDialog | Writing the precache file
+226 | ShaderWarmDialog | Precache shaders: %1
+227 | ShaderWarmDialog | Starting
+228 | ShaderWarmDialog | Stopping
+229 | ShaderWarmDialog | %1: %L2 / %L3
+230 | ShaderWarmDialog | %1: %L2
+231 | ShaderWarmDialog | Shader precache is ready.
+232 | ShaderWarmDialog | This game keeps its shaders in a format Lichii can't read, so none are prepared from the game files.
+233 | ShaderWarmDialog | The game files have no compute shaders to prepare.
+234 | ShaderWarmDialog | The shaders your earlier play sessions saved are still precached.
+235 | ShaderWarmDialog | Compute programs: %L1
+236 | ShaderWarmDialog | Skipped (could not be read or converted): %L1
+237 | ShaderWarmDialog | It is built on the loading screen when Precache shaders before game start is on.
+238 | ShaderWarmDialog | Shader precache stopped.
+239 | ShaderWarmDialog | Shader precache could not be built.
+240 | ShaderWarmDialog | No details were given.
+241 | ShaderWarmDialog | Close
+242 | UpdateDialog | <a href="%1">View on GitHub</a>
+243 | UpdateDialog | Remind Me Later
+244 | UpdateDialog | Skip This Version
+245 | UpdateDialog |  This release has no PGO build, so the standard build will be downloaded.
+246 | UpdateDialog | APPDIR
+247 | UpdateDialog | Failed to restart
+248 | UpdateDialog | Please start %1 again yourself.
+249 | UpdateDialog | Failed to install the update
+250 | UpdateDialog | Could not start the update installer.
+251 | UpdateDialog | Another Lichii window is already updating this installation.
+252 | UpdateDialog | Could not replace %1. Your installation was not changed.
+253 | UpdateDialog | Update Installed
+254 | UpdateDialog | The new version is installed. The previous version is kept as %1.\n\nRestart now?
+255 | UpdateDialog | Could not create a folder for the update.
+256 | UpdateDialog | Unpacking...
+257 | UpdateDialog | The downloaded update could not be unpacked.
+258 | UpdateDialog | Update Ready
+259 | UpdateDialog | Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.\n\nRestart now?
+260 | UpdateDialog | Download failed verification
+261 | UpdateDialog | The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.
+262 | UpdateDialog | Would you like to download this update?
+263 | ConfigureMicrophone | Choose the microphone used by games. Start a test and speak to check the input level.
+264 | ConfigureMicrophone | Refresh devices
+265 | ConfigureMicrophone | Microphone volume:
+266 | ConfigureMicrophone | Input level:
+267 | ConfigureMicrophone | Start microphone test
+268 | ConfigureMicrophone | Microphone disconnected or capture failed.
+269 | ConfigureMicrophone | Stop emulation to change the microphone input device or volume.
+270 | ConfigureMicrophone | System default
+271 | ConfigureMicrophone | %1 (unavailable)
+272 | ConfigureMicrophone | Microphone input is unavailable. Choose an available input device.
+273 | ConfigureMicrophone | Unable to open the microphone. Check the device and microphone permissions in your operating system.
+274 | ConfigureMicrophone | Stop microphone test
+275 | ConfigureMicrophone | Listening. Speak into your microphone.
+276 | ConfigurationShared | Use the game's own DLSS
+277 | ConfigurationShared | Runs a Switch 2 game's own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.\nAMD FSR 3.1 still draws while the network is checked, when it can't run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii's checks.\nTakes effect when a game starts.
+278 | ConfigurationShared | Frame rate limit (Switch 2):
+279 | ConfigurationShared | Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).\nAbove 60 Hz most games run too fast; use it with a game patch that follows real time, such as "FPS Unlock (built-in)" for Ocarina of Time.\nTakes effect when a game starts.
+280 | ConfigurationShared | RCAS Sharpness:
+281 | ConfigurationShared | Strength of RCAS (AMD's contrast-adaptive sharpening) on the upscaler used in place of a game's DLSS (AMD FSR 3.1); 0% turns it off.\nAlso sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.
+282 | ConfigurationShared | Use NVIDIA DLSS in place of a game's DLSS (experimental)
+283 | ConfigurationShared | Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game's own DLSS, instead of AMD FSR 3.1.\nNeeds NVIDIA's Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA's files. Use the download button below.\nFire Emblem: Fortune's Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.\nIn The Legend of Zelda: Ocarina of Time it replaces the game's upscaler at 1x resolution scale.\nTakes effect when a game starts.
+284 | ConfigurationShared | Ocarina of Time anti-aliasing:
+285 | ConfigurationShared | The Legend of Zelda: Ocarina of Time only.\nGame: the game's own anti-aliasing network, which sharpens heavily.\nNo sharpening: the image as the game renders it, without the network (faster; pairs well with a higher resolution). Has no effect while NVIDIA DLSS is on.\nTakes effect when the game starts.
+286 | ConfigurationShared | FPS Limit
+287 | ConfigurationShared | Caps how often the game presents, so the game itself runs at this rate. 0 leaves the frame rate to the game and the display.
+288 | ConfigurationShared | Enable Frame Generation
+289 | ConfigurationShared | Frame Generation Type
+290 | ConfigurationShared | Frame Generation Multiplier
+291 | ConfigurationShared | Target Frame Rate
+292 | ConfigurationShared | Auto Flow Scale
+293 | ConfigurationShared | Flow Scale
+294 | ConfigurationShared | Queue Target
+295 | ConfigurationShared | Dump Optical Flow
+296 | ConfigurationShared | Native compute write mark:
+297 | ConfigurationShared | How much of a Switch 2 compute shader's storage buffer is treated as written by the GPU after each dispatch.\nAuto marks what the shader's stores can reach and falls back to Full when that cannot be proven.\nFull marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game's own writes to nearby memory (flickering effects) and copy far more data back from the GPU.
+298 | ConfigurationShared | Pin GPU threads to their own cores
+299 | ConfigurationShared | Pins the emulator's GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.\nCan hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.\nWindows and Linux only. Takes effect when a game starts.
+300 | ConfigurationShared | Precache shaders before game start:
+301 | ConfigurationShared | Builds shaders on the loading screen, on every CPU thread, so they don't stutter the first time the game uses them: the compute shaders found in the game files, and the shaders saved by earlier play sessions that the normal shader loading leaves for later. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.\nAsk asks at launch while the game has never been precached.
+302 | ConfigurationShared | Switch 2 draws with unbuilt pipelines:
+303 | ConfigurationShared | Only applies when asynchronous shader building is on. Decides what a Switch 2 draw does when its graphics pipeline is still building.\nWait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops the draw, which can leave an effect missing for a few frames. Bounded waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.
+304 | ConfigurationShared | Pipeline wait per frame (ms):
+305 | ConfigurationShared | Used by the Bounded mode: the most time per frame that Switch 2 draws may wait in total for pipelines that are still building. Once spent, the remaining unbuilt draws of that frame are skipped.
+306 | ConfigurationShared | Mario Kart World: 30 FPS mode
+307 | ConfigurationShared | Forces the game to use its native 30 FPS mode at normal game speed. Takes effect after restarting the game.
+308 | ConfigurationShared | Mario Kart World: dynamic FPS (experimental)
+309 | ConfigurationShared | Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain normal game speed. Takes effect after restarting the game and takes precedence over the 30 FPS mode.
+310 | ConfigurationShared | Auto (shader extent)
+311 | ConfigurationShared | Full binding
+312 | ConfigurationShared | Lossless Scaling (LSFG)
+313 | ConfigurationShared | Optical Flow Interpolation (built-in)
+314 | ConfigurationShared | AMD FidelityFX Super Resolution 1 (FSR 1)
+315 | ConfigurationShared | AMD FidelityFX Super Resolution 1, softer sharpening
+316 | ConfigurationShared | No sharpening
+317 | ConfigurationShared | Ask
+318 | ConfigurationShared | Wait
+319 | ConfigurationShared | Bounded wait
+320 | MainWindow | LSFG
+321 | MainWindow | Optical Flow
+322 | MainWindow | FSR 1
+323 | MainWindow | FSR 1 Soft
+324 | Hotkeys | Exit Eglantine
+325 | GameListWorker | %1 (update)
+326 | GameListWorker | Not scanned
+327 | GameListWorker | Folder size is not calculated during game discovery.
+328 | GRenderWindow | Lichii has not been compiled with OpenGL support.
+329 | ConfigureGraphics |  Hz
+330 | Hotkeys | Exit Lichii
+331 | ConfigureInput | Microphone
+332 | ConfigurePerGame | Detect Icon
+333 | ConfigurePerGame | Enter game name...
+334 | ConfigurePerGame | Edit the game name stored in the NUP metadata
+335 | ConfigurePerGame | Select Game Icon
+336 | ConfigurePerGame | Invalid Image
+337 | ConfigurePerGame | Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.
+338 | ConfigurePerGame | Please enter a game name first so the icon can be detected.
+339 | ConfigurePerGame | The game name is too long to search.
+340 | ConfigurePerGame | Detecting...
+341 | ConfigurePerGame | Update NUP Metadata
+342 | ConfigurePerGame | Stop emulation before changing NUP metadata.
+343 | ConfigurePerGame | Failed to update NUP metadata:\n%1
+344 | GameList | Rebuild Shader Precache
+345 | GameList | Build Shader Precache
+346 | GameList | Dump NUP...
+347 | GameList | Convert to NUP...
+348 | GameList | Edit NUP Metadata...
+349 | GameList | Submit compatibility report…
+350 | LoadingScreen | Skip
+351 | LoadingScreen | Start the game now. The shaders not precached yet are precached on a later launch.
+352 | LoadingScreen | Precaching shaders %1 / %2
+353 | MigrationWorker | Citron
+354 | MigrationWorker | Sudachi
+355 | MigrationWorker | Suyu
+356 | MigrationWorker | Yuzu
